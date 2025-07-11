@@ -1,10 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { GraduationCap, Award } from "lucide-react";
 import profileImage from "@/assets/adithyan-profile.jpg";
-
 const About = () => {
-  return (
-    <section id="about" className="section-padding bg-background">
+  return <section id="about" className="section-padding bg-background">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -36,7 +34,7 @@ const About = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg mb-1">B.Tech in Computer Science and Engineering</h3>
-                      <p className="text-muted-foreground">Mar Athanasius College of Engineering (Class of 2025)</p>
+                      <p className="text-muted-foreground">Mar Athanasius College of Engineering -2025</p>
                       <p className="text-sm text-muted-foreground">APJ Abdul Kalam Technological University</p>
                     </div>
                   </div>
@@ -63,19 +61,13 @@ const About = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-2xl">
-                <img 
-                  src={profileImage} 
-                  alt="Adithyan P A"
-                  className="w-full h-full object-cover object-center"
-                />
+                <img src={profileImage} alt="Adithyan P A" className="w-full h-full object-cover object-center" />
               </div>
               <div className="absolute -inset-4 rounded-2xl bg-gradient-to-r from-primary/20 to-accent/20 -z-10 blur-xl"></div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
