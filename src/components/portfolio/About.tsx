@@ -34,7 +34,7 @@ const About = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg mb-1">B.Tech in Computer Science and Engineering</h3>
-                      <p className="text-muted-foreground">Mar Athanasius College of Engineering -2025</p>
+                      <p className="text-muted-foreground">Mar Athanasius College of Engineering - 2025</p>
                       <p className="text-sm text-muted-foreground">APJ Abdul Kalam Technological University</p>
                     </div>
                   </div>
@@ -49,7 +49,7 @@ const About = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg mb-1">Diploma in Computer Engineering</h3>
-                      <p className="text-muted-foreground">IPT & GPTC Shoranur (2022)</p>
+                      <p className="text-muted-foreground">IPT & GPTC Shoranur - 2022</p>
                     </div>
                   </div>
                 </CardContent>
