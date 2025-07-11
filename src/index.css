@@ -8,10 +8,8 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Portfolio Color Palette */
+    /* Minimal Color Palette */
     --brightly-orange: 7 100% 50%;
-    --dimly-blue: 200 71% 95%;
-    --alert-green: 147 54% 58%;
     
     /* Design System Colors */
     --background: 0 0% 100%;
@@ -26,20 +24,20 @@ All colors MUST be HSL.
     --primary: var(--brightly-orange);
     --primary-foreground: 0 0% 100%;
 
-    --secondary: var(--dimly-blue);
+    --secondary: 0 0% 96%;
     --secondary-foreground: 0 0% 10%;
 
-    --muted: 200 20% 92%;
+    --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: var(--alert-green);
-    --accent-foreground: 0 0% 10%;
+    --accent: 0 0% 10%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 200 20% 85%;
-    --input: 200 20% 85%;
+    --border: 0 0% 90%;
+    --input: 0 0% 96%;
     --ring: var(--brightly-orange);
 
     --radius: 0.5rem;
@@ -74,13 +72,13 @@ All colors MUST be HSL.
     --primary: var(--brightly-orange);
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 200 30% 20%;
+    --secondary: 0 0% 15%;
     --secondary-foreground: 0 0% 95%;
 
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 65%;
 
-    --accent: var(--alert-green);
+    --accent: 0 0% 95%;
     --accent-foreground: 0 0% 10%;
 
     --destructive: 0 62.8% 30.6%;
@@ -112,16 +110,16 @@ All colors MUST be HSL.
 }
 
 @layer utilities {
-  /* Portfolio-specific animations and utilities */
+  /* Minimal design utilities */
   .gradient-text {
-    background: linear-gradient(135deg, hsl(var(--brightly-orange)), hsl(var(--alert-green)));
+    background: linear-gradient(135deg, hsl(var(--brightly-orange)), hsl(0, 0%, 20%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
   .hero-gradient {
-    background: linear-gradient(135deg, hsl(var(--background)), hsl(var(--dimly-blue)));
+    background: hsl(var(--background));
   }
   
   .section-padding {

@@ -23,8 +23,6 @@ export default {
 			},
 			colors: {
 				'brightly-orange': 'hsl(var(--brightly-orange))',
-				'dimly-blue': 'hsl(var(--dimly-blue))',
-				'alert-green': 'hsl(var(--alert-green))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
