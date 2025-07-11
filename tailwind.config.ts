@@ -18,7 +18,14 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+			},
 			colors: {
+				'ragin-beige': 'hsl(var(--ragin-beige))',
+				'coral-pink': 'hsl(var(--coral-pink))',
+				'sleuthe-yellow': 'hsl(var(--sleuthe-yellow))',
+				'pink-leaf': 'hsl(var(--pink-leaf))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
