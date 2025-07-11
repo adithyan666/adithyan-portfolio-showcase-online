@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { GraduationCap, Award } from "lucide-react";
-import profileImage from "@/assets/adithyan-profile.jpg";
+const profileImage = "/lovable-uploads/150e9865-5f48-49d7-823e-c242f1bd4bee.png";
 const About = () => {
   return <section id="about" className="section-padding bg-background">
       <div className="container mx-auto">

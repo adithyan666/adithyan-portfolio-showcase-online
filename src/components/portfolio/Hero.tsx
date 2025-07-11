@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Download } from "lucide-react";
-import profileImage from "@/assets/adithyan-profile.jpg";
+const profileImage = "/lovable-uploads/150e9865-5f48-49d7-823e-c242f1bd4bee.png";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
