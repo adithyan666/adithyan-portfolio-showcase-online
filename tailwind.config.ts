@@ -22,10 +22,9 @@ export default {
 				'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
 			},
 			colors: {
-				'ragin-beige': 'hsl(var(--ragin-beige))',
-				'coral-pink': 'hsl(var(--coral-pink))',
-				'sleuthe-yellow': 'hsl(var(--sleuthe-yellow))',
-				'pink-leaf': 'hsl(var(--pink-leaf))',
+				'brightly-orange': 'hsl(var(--brightly-orange))',
+				'dimly-blue': 'hsl(var(--dimly-blue))',
+				'alert-green': 'hsl(var(--alert-green))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
