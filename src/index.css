@@ -9,7 +9,7 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Minimal Color Palette */
-    --brightly-orange: 7 100% 50%;
+    --light-blue: 195 100% 85%;
     
     /* Design System Colors */
     --background: 0 0% 100%;
@@ -21,7 +21,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 10%;
 
-    --primary: var(--brightly-orange);
+    --primary: var(--light-blue);
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 96%;
@@ -38,7 +38,7 @@ All colors MUST be HSL.
 
     --border: 0 0% 90%;
     --input: 0 0% 96%;
-    --ring: var(--brightly-orange);
+    --ring: var(--light-blue);
 
     --radius: 0.5rem;
 
@@ -69,7 +69,7 @@ All colors MUST be HSL.
     --popover: 0 0% 12%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: var(--brightly-orange);
+    --primary: var(--light-blue);
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 15%;
@@ -86,7 +86,7 @@ All colors MUST be HSL.
 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: var(--brightly-orange);
+    --ring: var(--light-blue);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -112,7 +112,7 @@ All colors MUST be HSL.
 @layer utilities {
   /* Minimal design utilities */
   .gradient-text {
-    background: linear-gradient(135deg, hsl(var(--brightly-orange)), hsl(0, 0%, 20%));
+    background: linear-gradient(135deg, hsl(var(--light-blue)), hsl(0, 0%, 20%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

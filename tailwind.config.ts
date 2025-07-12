@@ -22,7 +22,7 @@ export default {
 				'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
 			},
 			colors: {
-				'brightly-orange': 'hsl(var(--brightly-orange))',
+				'light-blue': 'hsl(var(--light-blue))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
