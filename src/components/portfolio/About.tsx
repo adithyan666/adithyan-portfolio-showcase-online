@@ -60,9 +60,7 @@ const About = () => {
           {/* Profile Image */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-2xl">
-                <img src={profileImage} alt="Adithyan P A" className="w-full h-full object-cover object-center" />
-              </div>
+              
               <div className="absolute -inset-4 rounded-2xl bg-gradient-to-r from-primary/20 to-accent/20 -z-10 blur-xl"></div>
             </div>
           </div>
