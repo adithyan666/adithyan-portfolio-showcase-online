@@ -9,7 +9,7 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Minimal Color Palette */
-    --light-blue: 195 100% 85%;
+    --light-blue: 204 54% 52%;
     
     /* Design System Colors */
     --background: 0 0% 100%;
